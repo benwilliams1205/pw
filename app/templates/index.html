@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% if title %}
+        <title>{{ title }} - test</title>
+    {% else %}
+        <title> ERROR!!! </title>
+    {% endif %}
+</head>
+<body>
+    <h1>Hello, {{user.username}}!</h1>
+</body>
+</html>
